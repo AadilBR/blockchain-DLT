@@ -1,6 +1,6 @@
 1 - Un arbre de merkle nécessite une paire de hashes pour produire un nouveau hash parent. Il faut donc absolument que le nombre de transactions qui produiront le Merkle root soit pair. Comment est géré le cas ou le nombre de transactions dans le Block à valider est impair pour générer un Merlke root ?
 
-     => les hashes impairs passés à une fonction de hachage directemrnt.
+     => les hashes impairs seront passés à une fonction de hachage directement.
 
 2 - Dans le réseau bitcoin, Comment un nouveau noeud arrive t'il à retrouver ses pairs et ainsi rejoindre le réseau ? Expliquer le processus avec vos propres mots.
 
